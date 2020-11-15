@@ -1,0 +1,30 @@
+{
+  "name": "pixabay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PasichnaDaryna/pixabay.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PasichnaDaryna/pixabay/issues"
+  },
+  "homepage": "https://github.com/PasichnaDaryna/pixabay#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "pnotify": "^5.2.0"
+  },
+  "dependencies": {
+    "@pnotify/core": "^5.2.0",
+    "basiclightbox": "^5.0.3",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  }
+}
